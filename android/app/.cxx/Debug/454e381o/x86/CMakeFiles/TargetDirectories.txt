@@ -1,0 +1,2 @@
+/Users/softidoc/Documents/MyProjects/datingapp/android/app/.cxx/Debug/454e381o/x86/CMakeFiles/edit_cache.dir
+/Users/softidoc/Documents/MyProjects/datingapp/android/app/.cxx/Debug/454e381o/x86/CMakeFiles/rebuild_cache.dir

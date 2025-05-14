@@ -30,15 +30,15 @@ class _HookUpNavBarState extends State<HookUpNavBar> {
             routeName = '/requests'; // Replace with your Requests page route name
             break;
           case 2:
-            routeName = '/explore'; // Replace with your Explore page route name
+            routeName = '/chats'; // Replace with your Explore page route name
             break;
           case 3:
-            routeName = '/profile'; // Replace with your Profile page route name
+            routeName = '/account'; // Replace with your Profile page route name
             break;
         }
         Navigator.pushNamed(context, routeName); // Navigate to the selected page
       },
-      selectedItemColor: Colors.pinkAccent,
+      selectedItemColor: Colors.red,
       unselectedItemColor: Colors.grey.shade600,
       showUnselectedLabels: true,
       type: BottomNavigationBarType.fixed,
@@ -51,14 +51,14 @@ class _HookUpNavBarState extends State<HookUpNavBar> {
           label: 'Ladies',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.person_add_alt_1),
-          activeIcon: Icon(Icons.person_add_alt_1),
-          label: 'Requests',
+          icon: Icon(Icons.shopping_cart_checkout),
+          activeIcon: Icon(Icons.shopping_cart_checkout),
+          label: 'Hook-Up Cart',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search),
-          activeIcon: Icon(Icons.search_outlined),
-          label: 'Explore',
+          icon: Icon(Icons.chat_bubble_outline), // Inactive icon
+          activeIcon: Icon(Icons.chat_bubble),   // Active icon
+          label: 'Private Chat',                 // Label text
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person_outline),

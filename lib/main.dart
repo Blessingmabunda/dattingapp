@@ -1,3 +1,6 @@
+import 'package:datingapp/pages/male/private/account.dart';
+import 'package:datingapp/pages/male/private/home/chats.dart';
+import 'package:datingapp/pages/male/private/messeges.dart';
 import 'package:datingapp/pages/male/private/home.dart';
 import 'package:datingapp/pages/male/private/home/view_services.dart';
 import 'package:datingapp/pages/male/private/requests.dart';
@@ -32,7 +35,9 @@ class MyApp extends StatelessWidget {
         ViewService.routeName: (context) => ViewService(),
         //requests
         Requests.routeName: (context) => Requests(),
-
+        ChatPage.routeName: (context) => ChatPage(),
+        Account.routeName: (context) => Account(),
+        Chats.routeName: (context) => Chats(),
       },
     );
   }

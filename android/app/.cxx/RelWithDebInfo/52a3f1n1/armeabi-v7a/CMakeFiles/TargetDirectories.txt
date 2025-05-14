@@ -1,0 +1,2 @@
+/Users/softidoc/Documents/Softidoc Projects/dynamo/dynamomobileapp/android/app/.cxx/RelWithDebInfo/52a3f1n1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/softidoc/Documents/Softidoc Projects/dynamo/dynamomobileapp/android/app/.cxx/RelWithDebInfo/52a3f1n1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
